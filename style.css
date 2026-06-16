@@ -1,0 +1,906 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color: #121212;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Background Hero Section Setup */
+.hero-section {
+    flex: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url('pics/vecteezy_pouring-steaming-coffee-into-a-black-cup-with-coffee-beans_72187196\ \(1\).jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    padding: 0 7%;
+     min-height: 700px;
+     background-attachment: fixed;
+    
+}
+
+/* Navbar Layout */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: transparent;
+    z-index: 10;
+}
+
+.logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #e0e0e0;
+    margin: 0 20px;
+    font-size: 0.95rem;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #fccc74;
+}
+
+/* Auth Buttons Group */
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-signin {
+    text-decoration: none;
+    color: #ffffff   ;
+    font-size: 0.95rem;
+    
+}
+
+.btn-signup {
+    text-decoration: none;
+    color: #000000;
+    background-color: #f4c772;
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: background-color 0.3s ease;
+    
+}
+
+.btn-signup:hover {
+    background-color: #e2b460;
+}
+
+/* Hero Text Content Layout */
+.hero-content {
+    max-width: 550px;
+}
+
+.sub-heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.main-heading {
+    font-family: 'Great Vibes', cursive;
+    font-size: 7.5rem;
+    line-height: 1;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #cccccc;
+    font-weight: 300;
+    font-family: "Roboto Slab", serif;
+}
+
+/* Hero Action Button */
+.btn-order {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    background-color: #e9dcc2;
+    padding: 12px 32px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-order:hover {
+    background-color:#f5c264 ;
+}
+
+
+             /* section 2 */
+
+.img{
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+   
+}
+
+.hero-2{
+    max-width: 550px;
+}
+
+.sub-heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #f1f1f1;
+}
+
+.heading {
+    font-family: 'Great Vibes', cursive;
+    font-size: 7.5rem;
+    line-height: 1;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.sub-heading {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #cccccc;
+    font-weight: 300;
+}
+
+
+.btn-order {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    background-color: #fccc74;
+    padding: 12px 32px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-learn{
+    background-color: #e2b460;
+}
+
+ 
+
+
+
+/* section 2 */
+/* Background Hero Section Setup */
+.hero-section-2 {
+    flex: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url('pics/vecteezy_fresh-coffee-pouring-from-espresso-machine-into-ceramic-cups_69633824.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    padding: 0 7%;
+    min-height: 700px;
+    background-attachment: fixed;
+
+}
+
+.p-2{
+    color: #bab3b3;
+    font-family: "Roboto Slab", serif;
+}
+
+.btn-Learn-More{
+ display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    background-color: #fccc74 ;
+    padding: 12px 32px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    
+}
+
+/* .......................................................................3  */
+/* section 3 */
+
+.hero-section-3{
+    flex: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url('pics/images.png') no-repeat center center/cover ;
+    display: flex;
+    align-items: center;
+    padding: 0 7%;
+     min-height: 800px;
+     background-attachment: fixed;
+}
+
+/* --- HEADING SECTION --- */
+.border-box{
+align-items: center;
+justify-content: space-between;
+
+
+}
+
+.section-3 {
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 50px;
+}
+
+.main-heading {
+    font-size: 2.8rem;
+    color: #cccccc;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.sub-text {
+    font-size: 0.95rem;
+    color: #757575;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+
+}
+.color{ 
+    color: #f1ceab; 
+    font-weight: 70;
+}
+/* card section */
+
+
+.boder-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    gap: 25px; 
+    padding: 25px;
+    background-color: #fff; 
+    margin:10%;
+}
+
+/* Coffee Card  */
+.coffee-card {
+    background: #ffffff;
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+transition: transform 0.3s     ease;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.coffee-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Image Holder styling */
+.card-img-holder {
+    width: 100%;
+    height: 180px; 
+    overflow: hidden;
+}
+
+
+.card-img-holder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+
+.card-info {
+    padding: 15px 10px;
+}
+
+.card-info h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+
+.recipe {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+/* Price styling */
+.price {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+
+.btn-order {
+    background-color: #f5b041; 
+    color: #000; 
+    border: none;
+    padding: 8px 25px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 15px; 
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Button hover effect */
+.btn-join-us{
+    background-color: #e2b460;
+}
+/* .....................................section 3 end......................................... */
+
+/* section 4 start */
+
+
+
+.features-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-family: "Prata", serif;
+     min-height: 600px;
+}
+
+/* Headings Styling */
+.features-heading {
+    font-size: 2.5rem;
+    color: #4a2c11; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.features-subheading {
+    font-size: 1.1rem;
+    color: #7c7c7c;
+    margin-bottom: 40px;
+}
+
+/* Flexbox Layout: Mobile par vertical, Desktop par horizontal */
+.features-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.feature-card {
+    background: #fff;
+    width: 100%;
+    max-width: 400px; 
+    padding: 30px 20px;
+    border: 1px solid #6f4e37; 
+    outline: 3px solid #fff;   
+    box-shadow: 0 0 0 4px #6f4e37;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px); 
+}
+
+/* Icon Design */
+.feature-icon img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+/* Card Content Styling */
+.feature-title {
+    font-size: 1.4rem;
+    color: #4a2c11;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.feature-desc {
+    font-size: 0.95rem;
+    color: #8e8e8e;
+    margin: 0;
+}
+
+ .features-grid {
+        flex-direction: row; 
+        justify-content: center;
+    }
+    
+    .feature-card {
+        flex: 1; 
+    }
+
+
+/* section 4 heading */
+.container {
+     color: #4a2c11; 
+    text-align: center; 
+    width: 100%;       
+}
+
+.diff {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+}
+ 
+.btn-join-us{
+    color: #000;
+    background-color: rgb(240, 150, 25);
+    height: 40px;
+    width: 90px;
+    font-weight: bolder;
+     border-radius: 15px; 
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    
+}
+
+.btn-join-us:hover{
+    background-color:rgb(226, 169, 36) ;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
+}
+
+
+
+/*/////////////////////// section 4 end *
+
+
+
+
+
+
+/* section 5 start */
+/* Top Hero Section ki styling */
+
+ .content-5{
+    background-image: url('pics/vecteezy_coffee-beans-with-water-splash-background_24669924.jpeg');
+     background-size: cover;
+    background-position: center;
+    padding: 60px 20px; 
+    text-align: left; 
+    color: #faf9f9; 
+    min-height: 300px;
+    display: block;
+    
+}
+
+.brown-overlay{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+height: 100%;
+background-color: rgba(139, 94, 60, 0.4);
+z-index: 1; 
+}
+
+
+.cup-image{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    z-index: 2;
+}
+
+.title-1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.hero-text-1 {
+    font-size: 16px;
+    margin-bottom: 25px;
+    opacity: 0.9;
+    color: white;
+}
+
+
+.order-btn {
+    background-color: #f7b767; /* Orange/Yellow shade */
+     color: #000000; 
+    border: none;
+    outline: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.order-btn:hover {
+    background-color: #e5a355;
+    transform: scale(1.05);
+}
+
+
+.coffee-product-section {
+    background-color: #5c3a21; 
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden; 
+}
+
+.product-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}  
+
+
+/*///////////////////////////////////// section 5 heading styling */
+
+.hero-hon{
+    background-color: white;
+    color :#4a2c11  ;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Roboto Slab", serif;
+    font-family: "Prata", serif;
+    min-height: 800px;
+    
+}
+
+/* /////////////////////////////////////////////////////////////////////end of 5 */
+
+
+
+
+/* sec 6 start ///////////// */
+
+
+
+/* Reset and Base Styles */
+.testimonial-container{
+    position: relative;
+    display: flex;
+background-color: rgb(243, 211, 216);
+    max-width: 500px;
+    padding: 20px;
+    padding-right: 50px;
+color: #332318;
+font-family: "Roboto Slab", serif;
+    font-family: "Prata", serif; 
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 100%;
+margin: 0%auto;
+
+}
+
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+   margin: 0% auto;
+   display: block;
+   max-width: 600px;
+   width: 90%;
+} 
+
+.arrow-btn {
+    background-color: #f3b677; 
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.splash-effect {
+    position: absolute;
+    bottom: 200px;
+    left: -60px;
+    width: 300%;
+    height: 400px;
+    background: url('icons/coffee-splash-isolated-on-a-transparent-background-free-png.webp') no-repeat center/contain; 
+    pointer-events: none;
+    z-index: 1;
+
+}
+
+
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ffbe6b; 
+    border: none;
+    width: 40px;
+    height: 45px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 14px;
+    transition: background 0.3s;
+    z-index: 10;
+}
+
+.nav-btn:hover {
+    background-color: #e5aa5f;
+}
+
+/* Buttons Positioning */
+.left-btn {
+    left: -15px;
+    border-radius: 4px 0 0 4px;
+}
+
+.right-btn {
+    right: -15px;
+    border-radius: 0 4px 4px 0;
+}
+
+
+.left-splash {
+    position: absolute;
+    bottom: 100px;
+    right: -1px;
+    width: 300%;
+    height: 400px;
+
+    background: url('icons/coffee-splash-isolated-on-a-transparent-background-free-png.webp') no-repeat center/contain; 
+    pointer-events: none;
+    z-index: 1;
+    
+
+}
+/* section 6 end////////////////////////////// */
+
+
+
+
+/* SECTION 7 START LAST SECTION */
+
+.content-7{
+    background-image: url('pics/blur.jpeg');
+     background-size: cover;
+    background-position: center;
+    padding: 60px 20px; 
+    text-align: left; 
+    color: #faf9f9; 
+    min-height: 300px;
+    display: block;
+    
+    min-height: 300px;
+}
+
+.heading-sub{
+    
+    color :#ffffff  ;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Roboto Slab", serif;
+    font-family: "Prata", serif;
+
+
+}
+
+.subs-form{
+    border-radius: 4px;
+    color: black;
+border: none;
+outline: none;
+font-size: 1rem;
+
+}
+
+.subs-input{
+ border-radius: 4px;
+border: none;
+outline: none;
+font-size: 1rem;
+color: #000;
+height: 40px;
+width: 250px;
+flex: 1;
+overflow: hidden;
+
+}
+.subs-btn{
+      color: black;
+border: none;
+outline: none;
+font-size: 1rem;
+border-radius: 4px;
+background-color: rgb(247, 186, 72);
+width: 100px;
+height: 40px;
+}
+
+.subs-btn:hover {
+  background-color: #ebab5d;
+}
+
+
+
+/* ////////////////////////////////////////////////7 END */
+
+
+/* /////////////////////////////////////////////////////////////SECTION 8 START  */
+
+ .content-8{
+    background-color: #613e23;
+     background-size: cover;
+    background-position: center;
+    padding: 60px 20px; 
+    text-align: left; 
+    color: #faf9f9; 
+    display: block;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    min-height: fit-content;
+
+}
+
+.footer-heading-1{
+    font-size: x-large;
+  font-family: "Roboto Slab", serif;
+    font-family: "Prata", serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    color: #442a1d;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #cca48a;
+    color: #ffffff;
+
+}
+
+/* FOOTER LINKS */
+.footer-2 a, 
+.footer-3 a, 
+.footer-4 a {
+    color: #ffffff;
+    text-decoration: none; 
+        transition: color 0.3s ease; 
+}
+
+
+.footer-2 a:hover, 
+.footer-3 a:hover, 
+.footer-4 a:hover {
+    color: #ffffff; 
+}
+
+.footer-links-2 li, .footer-links li, .footer-contact-4 li {
+    margin-bottom: 12px; 
+}
+
+
+.footer-links-container { 
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start;
+    width: 50%;
+}
+
+
+.footer-3 {
+    text-align: right; 
+    margin-left: 500px;
+}
+
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+@media (min-width: 769px) {
+    .footer-3 {
+        text-align: left; 
+    }
+}
+@media (max-width: 768px) {
+    .navbar {
+        position: static;
+        flex-direction: column;
+        gap: 15px;
+        background-color: #121212;
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* THE END */
